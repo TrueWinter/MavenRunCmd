@@ -5,19 +5,20 @@ MavenRunCmd is a Maven plugin that allows you to run arbitrary shell commands du
 ## Usage
 
 ```xml
-<pluginRepositories>
-    <pluginRepository>
+<repositories>
+    <repository>
         <id>jitpack.io</id>
         <url>https://jitpack.io</url>
-    </pluginRepository>
-</pluginRepositories>
+    </repository>
+</repositories>
 
 <build>
 <plugins>
     <plugin>
         <groupId>dev.truewinter</groupId>
         <artifactId>runcmd-maven-plugin</artifactId>
-        <version>1.5-SNAPSHOT</version>
+        <!-- Check releases for latest version -->
+        <version>1.5</version>
         <executions>
             <execution>
                 <phase>compile</phase>
