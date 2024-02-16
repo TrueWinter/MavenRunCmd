@@ -15,7 +15,7 @@ MavenRunCmd is a Maven plugin that allows you to run arbitrary shell commands du
 <build>
 <plugins>
     <plugin>
-        <groupId>dev.truewinter.mavenruncmd</groupId>
+        <groupId>dev.truewinter</groupId>
         <artifactId>runcmd-maven-plugin</artifactId>
         <version>1.5-SNAPSHOT</version>
         <executions>
